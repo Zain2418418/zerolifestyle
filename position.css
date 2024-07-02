@@ -46,3 +46,11 @@
     top:50%;
     left: 50%;
 }
+.box6{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    color:black;
+    position: absolute;
+    left:300px
+}
