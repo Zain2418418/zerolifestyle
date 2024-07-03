@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>Form In HTML</title>
+</head>
+<body>
+  <h1 class="register">اگر آپ کسی اسامی کے لئے اہل ہیں اور درخواست دیناچا ہتے ہیں تو آخر ی تاریخ کا انتظارنہ کریں اور فوراً آن لائن اپلائی کریں</h1>
+  <form class="form">
+    <label>First Name:</label>
+    <input type="text" placeholder="Enter Your First Name" value="" name="firstName" required/>
+    <label>Last Name:</label>
+    <input type="text" placeholder="Enter Your Last Name" value="" name="lastName"/>
+    <label>Email:</label>
+    <input type="email" placeholder="Enter Your email" value="" name="email" required/>
+    <label>Age:</label>
+    <input type="number" placeholder="Enter Your Age" value="" name="age"/>
+    <label>Gender:</label>
+    <div class="gender">
+    <input type="radio" value="Male" name="gender"/>
+    <label>Male</label>
+    <input type="radio" value="Female" name="gender"/>
+    <label>Female</label>
+</div>
+<label>Country:</label>
+<select name="country">
+    <option hidden>Choose Your Country:</option>
+    <option value="Pakistan">Pakistan</option>
+    <option value="Dubai">Dubai</option>
+    <option value="USA">USA</option>
+    <option value="UK">UK</option>
+
+</select>
+<label>Password:</label>
+<input type="password" placeholder="Enter your password" value="" name="password" required/>
+<lable>Date Of Birth:</lable>
+<input type="date" value="" name="dob"/>
+<label>Time:</label>
+<input type="time" value="" name="time"/>
+
+<button type="submit" class="submit">Submit</button>
+  </form>
+
+</body>
+</html>
