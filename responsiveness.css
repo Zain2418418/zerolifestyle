@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    background-color: black;
+    color:red;
+    text-align: center;
+}
+/* breakpoint for mobile screen */
+@media screen and (max-width:480px) and (min-width:250px) {
+    .title{
+        background-color: red;
+        color:yellow;
+        text-align: start;
+    } 
+
+}
+@media screen and (max-width:920px) and (min-width:481px) {
+    .title{
+        background-color: green;
+        color:black;
+        text-align: end;
+    } 
+
+}

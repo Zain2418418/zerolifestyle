@@ -1,0 +1,13 @@
+.box{
+    background: rgb(131,58,180);
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 87%, rgba(252,176,69,1) 100%);
+}
+
+.background{
+    background-image: url("https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630");
+    height: 500px;
+    width: 500px;
+    background-repeat: no-repeat;
+    clip-path: polygon(25% 0%, 75% 0%, 27% 41%, 43% 40%, 39% 40%, 75% 41%);
+    background-position: start;
+}
